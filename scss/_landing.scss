@@ -3,6 +3,8 @@ section.landing {
   margin: auto;
   padding: 130px 50px 80px 50px;
   display: flex;
+  background: url(../images/bg-pattern-top-desktop.svg);
+  background-repeat: no-repeat;
 
   .heading {
     max-width: 570px; // + 540px = 1110px

@@ -30,6 +30,8 @@ section.landing {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background: url(../images/bg-pattern-top-desktop.svg);
+  background-repeat: no-repeat;
 }
 
 section.landing .heading {
@@ -155,7 +157,7 @@ section.landing .rating .rating-wrap .flex-ite:nth-child(3) {
   max-width: 1210px;
   margin: auto;
   padding: 0px 50px 0px 50px;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .test .testimonial .t-wrap .t-one,
@@ -472,6 +474,8 @@ section.landing .rating .rating-wrap .flex-ite:nth-child(3) {
 @media (max-width: 575.98px) {
   section.landing {
     padding: 50px 25px 40px 25px;
+    background: url(../images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
   }
   section.landing .heading h1 {
     font-size: 1.6rem;
